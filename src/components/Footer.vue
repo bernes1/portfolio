@@ -1,0 +1,11 @@
+<script setup>
+defineProps(['name'])
+</script>
+
+<template>
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content bottom-0">
+        <aside>
+            <p>Copyright © {{ new Date().getFullYear() }} {{ name }}. All rights reserved. </p>
+        </aside>
+    </footer>
+</template>
