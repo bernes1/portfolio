@@ -1,0 +1,5 @@
+services:
+  web:
+    image: ghcr.io/bernes1/portfolio:latest
+    ports:
+      - 8080:80
