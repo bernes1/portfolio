@@ -2,7 +2,7 @@
 const projects = [
     { id:1,projectName: "Hackerspace Notify", projectDescription: "Sends a push notification to my phone when the hackerspace closes and opens", projectLink: "https://github.com/bernes1/hackerspace-notify"}, 
     { id:2,projectName: "pingmonitor", projectDescription: "It pings the server every 5 minutes and if the server is down it sends a sms.", projectLink: "https://github.com/bernes1/pingmonitor"},
-    { id:3,projectName: "norwegian-github-orgs", projectDescription: "me trying to make a list of norwegian github orgs.", projectLink: "https://github.com/bernes1/norwegian-github-orgs"},
+    { id:3,projectName: "norwegian-github-orgs", projectDescription: "me trying to make a list of norwegian github orgs.", projectLink: "https://github.com/bernes1/norwegian-github-orgs"}
 ]
 ]
 </script>
