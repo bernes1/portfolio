@@ -1,5 +1,6 @@
 services:
   web:
     image: ghcr.io/bernes1/portfolio:latest
+    conainer_name: portfolio
     ports:
       - 8080:80
