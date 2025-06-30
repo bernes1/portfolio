@@ -11,8 +11,9 @@ const title = ref("About Me")
     </div>
     
     <div class="flex-grow">
-      <h1 class="text-5xl font-bold">{{ title }}</h1>
-      <p class="py-6">Hello, my name is Herman i like to code and play ctfs in my free time. otherwhise at day time i go to school</p>
+      <h1 class="text-3xl font-bold">{{ title }}</h1>
+      <p class="">Hello 👋 I'm Herman i like to code and solve problems.</p>
+      <p>Currently working as a Software Engineering Apprentice👨🏼‍💻</p>
     </div>
   </div>
 

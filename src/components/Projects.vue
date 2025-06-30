@@ -7,9 +7,9 @@ const projects = [
 </script>
 
 <template>
-    <div class="container mx-auto flex items-center flex-col">
-        <h1 class="text-3xl font-bold mb-10">Projects</h1>
-        <p class="text-center mb-10">Here are some of my projects</p>
+    <div class="container mx-auto flex items-center flex-col mb-6">
+        <h1 class="text-2xl font-bold">Projects</h1>
+        <p class="text-center">Here are some of my projects</p>
     </div>
 
     <div class="grid justify-center grid-flow-row lg:grid-flow-col gap-4">
