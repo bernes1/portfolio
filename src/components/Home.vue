@@ -2,7 +2,6 @@
 import About from './About.vue';
 import Contact from './Contact.vue';
 import Projects from './Projects.vue';
-import Blog from "@/components/Blog.vue";
 defineProps(['name'])
 </script>
 
