@@ -4,7 +4,7 @@ const title = ref("About Me")
 </script>
 
 <template>
-<div class="hero ">
+<div class="hero">
   <div class="hero-content flex-col place-content-center lg:flex-row ">
     <div class="avatar w-1/4">
       <img src="../assets/37117219.jpeg" alt="Picture of Herman" class="rounded-full"/>
