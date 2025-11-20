@@ -1,0 +1,29 @@
+name: accebility-testing
+
+on:
+  push:
+    branches:
+      - "main"
+
+permissions:
+  contents: read
+
+jobs:
+  pally:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Install Chromium
+        run: sudo apt-get update && sudo apt-get install -y chromium-browser
+
+      - name: install pally
+        run: npm install -g pa11y-ci
+
+      - name: Run accessibility tests
+        run: pa11y-ci
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
