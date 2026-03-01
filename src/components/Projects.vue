@@ -13,8 +13,8 @@ const projects = [
         <p class="text-center">Here are some of my projects</p>
     </div>
 
-    <div class="grid justify-center grid-flow-row lg:grid-flow-col gap-4">
-        <div v-for="(project, index) in projects" :key="index" class="card w-96 bg-base-300 shadow-xl">
+    <div class="justify-center grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-4xl mx-auto">
+        <div v-for="(project, index) in projects" :key="index" class="card w-64 mx-auto lg:mx-0 lg:w-full bg-base-300 shadow-xl">
             <div class="card-body">
                 <h2 class="card-title" >{{project.projectName }}</h2>
                 <p>{{ project.projectDescription }}</p>
