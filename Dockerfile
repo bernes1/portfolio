@@ -5,6 +5,6 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM nginxinc/nginx-unprivileged:alpine AS final
+FROM nginx/nginx-unprivileged:alpine AS final
 WORKDIR /app
 COPY --from=build /app/dist /usr/share/nginx/html/
